@@ -48,6 +48,12 @@ git clone https://github.com/facebookresearch/fastText.git
 cd fastText
 pip install .
 ```
+* winFT
+```
+git clone https://github.com/KiyoshiHirose/winFT-0.1.1.git
+
+Please refer "Usage" how to run winFT.
+```
 * MeCab for Windows (Note: Japanese users only)
 
   MeCab installation is described in Japanese.
@@ -87,14 +93,12 @@ pip install mecab-python-windows
   Nearest Neighbors.
   
   This is an example of text8, fanous corpus of Word2Vec.
-  
   ![nn](https://user-images.githubusercontent.com/46741075/69818324-db514f00-123f-11ea-8dc3-be98d71acb61.png)
   ![nn-result](https://user-images.githubusercontent.com/46741075/69818355-edcb8880-123f-11ea-80b3-a1d345944000.png)
 
   Analogies.
   
-  This is an example of text8, famous corpus of Word2Vec.
-  
+  This is an example of text8, famous corpus of Word2Vec. 
   ![analogies](https://user-images.githubusercontent.com/46741075/69818460-24090800-1240-11ea-87fc-4dcb54438674.png)
   ![analogies-result](https://user-images.githubusercontent.com/46741075/69818485-308d6080-1240-11ea-98b6-7fc36a405c5c.png)
 
