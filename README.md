@@ -106,7 +106,7 @@ pip install mecab-python-windows
 
   Please use UTF-8 character code when you create a corpus. Keep in mind everything is UTF-8.
   
-  winFT accepts both carriage return, <CR><LF> and <LF>.
+  winFT accepts both carriage return, \<CR\>\<LF\> and \<LF\>.
 * Author
 
   Kiyoshi Hirose, Representative of HIT Business Consulting Firm (Self employed).
