@@ -102,7 +102,11 @@ pip install mecab-python-windows
   ![analogies](https://user-images.githubusercontent.com/46741075/69818460-24090800-1240-11ea-87fc-4dcb54438674.png)
   ![analogies-result](https://user-images.githubusercontent.com/46741075/69818485-308d6080-1240-11ea-98b6-7fc36a405c5c.png)
 
+* Note
+
+  Please use UTF-8 character code when you create corpus. Keep in mind everything is UTF-8.
   
+  winFT accepts both carriage return, <CR><LF> and <LF>.
 * Author
 
   Kiyoshi Hirose, Representative of HIT Business Consulting Firm (Self employed).
