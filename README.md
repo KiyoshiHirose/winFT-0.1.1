@@ -21,21 +21,25 @@ winFT runs on Japanese and English Windows.
 * Storage : Large enough for machine/deep learning
 # Installation
 * C++ for Windows
+
   Install Visual Studio 2019 Community version.
   
   Japanese users: install from [here](https://docs.microsoft.com/ja-jp/visualstudio/install/install-visual-studio?view=vs-2019)
   
   Non-Japanese users: install from [here](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2019)
 * Python 3.6 for Windows
+
   Go to [Python.org for Windows](https://www.python.org/downloads/windows/) and select your favorite version. "Wdindows x86-64 executable installer" is recommended. (winFT is developed under the [Python-3.6.8-amd64.exe](https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe))
 * Config parser, Numpy, Pillow, WMI import modules
-  pip from CMD or Power Shell window
 ```
+pip from CMD or Power Shell window
+
 python -V
 python -m pip install --upgrade pip
 pip install configparser, numpy, pillow, wmi
 ```
 * git 2.24.0 for Windows
+
   Install from [here](https://git-scm.com/downloads) and select Windows. Installation exe module is downloaded automatically and execute exe module.
 * fasttext Python API modules
 ```
@@ -71,8 +75,10 @@ pip install mecab-python-windows
   5. Open propaties of shortcut and insert "pythonw " into link textbox, then apply or exit
   6. Double click shortcut, the above winFT window will appear on your screen
 * Note
+
   TBD
 * Author
+
   Kiyoshi Hirose
   
   Representative, HIT Business Consulting Firm (Self employed)
@@ -81,4 +87,5 @@ pip install mecab-python-windows
 
   Certificate Artificial Intelligence: Implications for Business Strategy from MIT Sloan school of management.
 * License
+
   MIT License.
