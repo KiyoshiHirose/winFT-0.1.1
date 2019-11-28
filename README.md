@@ -75,9 +75,14 @@ pip install mecab-python-windows
   4. Send to Desktop as shortcut
   5. Open propaties of shortcut and insert "pythonw " into link textbox, then apply or exit
   6. Double click shortcut, the above winFT window will appear on your screen
-* Note
+* Examples
 
-  TBD
+  Predict-Prob
+  
+  This is an example of polarity(Positive/Even/Negative expressions) analysis.
+  
+  
+  
 * Author
 
   Kiyoshi Hirose, Representative of HIT Business Consulting Firm (Self employed).
