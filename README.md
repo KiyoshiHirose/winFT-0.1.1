@@ -71,7 +71,7 @@ pip install mecab-python-windows
   5. Open propaties of shortcut and insert "pythonw " into link textbox, then apply or exit
   6. Double click shortcut, the above winFT window will appear on your screen
 * Note
-
+  TBD
 * Author
   Kiyoshi Hirose
   
