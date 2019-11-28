@@ -30,7 +30,7 @@ winFT runs on Japanese and English Windows.
   Non-Japanese users: install from [here](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2019)
 * Python 3.6 for Windows
 
-  Go to [Python.org for Windows](https://www.python.org/downloads/windows/) and select your favorite version. "Wdindows x86-64 executable installer" is recommended. (winFT is developed under the [Python-3.6.8-amd64.exe](https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe))
+  Go to [Python.org for Windows](https://www.python.org/downloads/windows/) and select your favorite version. "Wdindows x86-64 executable installer" is recommended. winFT is developed under the [Python-3.6.8-amd64.exe](https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe).
 * Config parser, Numpy, Pillow, WMI import modules
 ```
 pip from CMD or Power Shell window
