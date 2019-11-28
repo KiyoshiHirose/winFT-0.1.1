@@ -44,9 +44,41 @@ cd fastText
 pip install .
 ```
 * MeCab for Windows (Note: Japanese users only)
+
   MeCab installation is described in Japanese.
-  Windows版mecabの日本語辞書文字コードはShift-JISコードですが、Pythonは文字コードをすべてUTF-8で処理をしていますので、mecabコマンドではShift-JISコード、fasttextAPIからはUTF-8コードの日本語辞書を用意する必要があります。以下にインストレーション方法を示します。
+  
+  Windows版mecabの日本語辞書文字コードはShift-JISコードですが、Pythonは文字コードをすべてUTF-8で処理をしていますので、mecabコマンドではShift-JISコード、fasttextAPIからはUTF-8コードの日本語辞書を用意する必要があります。2種類の文字コードの日本語辞書を作成するためには、2回インストールを行います。以下にインストレーション方法を示します。
 ```
 はじめにpipします
 pip install mecab-python-windows
 ```
+  次にコマンド用のmecabを[ここから](https://github.com/ikegami-yukino/mecab/releases)mecab-64-0.996.2.exeをインストールします。
+  
+  1回目はデフォルトのSHIFT-JISコードで、CまたはD:\MeCab にインストールします。インストール後、C:\MeCab\dic\ipadic → C:\MeCab\dic\ipadic-sjis にディレクトリ名を変更します。
+  
+  2回目はUTF-8コードで、CまたはD:\MeCab にインストールします。インストール後、C:\MeCab\dic\ipadic → C:\MeCab\dic\ipadic-utf8 にディレクトリ名を変更します。
+  
+  次にC:\MeCab\etc\mecabrcを修正します。
+  
+  dicdir =  $(rcpath)\..\dic\ipadic → dicdir =  $(rcpath)\..\dic\ipadic-sjis
+  
+  このままではfasttextAPI使用時に文字化けを起こしますので、config.ini の[mecab]タブに ini_cab_dir = -d c:/mecab/dic/ipadic-utf8を指定します。
+* Usage
+  1. Launch file explore
+  2. Locate winFT installation folder
+  3. Right click winfasttext.pyw
+  4. Send to Desktop as shortcut
+  5. Open propaties of shortcut and insert "pythonw " into link textbox, then apply or exit
+  6. Double click shortcut, the above winFT window will appear on your screen
+* Note
+
+* Author
+  Kiyoshi Hirose
+  
+  Representative, HIT Business Consulting Firm (Self employed)
+  
+  Focusing both business and technical strategies for AI implementation.
+
+  Certificate Artificial Intelligence: Implications for Business Strategy from MIT Sloan school of management.
+* License
+  MIT License.
