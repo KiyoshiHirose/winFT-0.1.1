@@ -12,6 +12,7 @@ winFT runs on Japanese and English Windows.
 * C++ for Windows
 * Python 3.6.8 or newer for Windows
 * Config parser, Numpy, Pillow, WMI import modules
+* git 2.24.0 for Windows
 * fasttext Python API modules
 * MeCab for Windows (MeCab is morphological analysis tool for Japanese)
 # Hardware Requirements
@@ -33,4 +34,19 @@ winFT runs on Japanese and English Windows.
 python -V
 python -m pip install --upgrade pip
 pip install configparser, numpy, pillow, wmi
+```
+* git 2.24.0 for Windows
+  Install from [here](https://git-scm.com/downloads) and select Windows. Installation exe module is downloaded automatically and execute exe module.
+* fasttext Python API modules
+```
+git clone https://github.com/facebookresearch/fastText.git
+cd fastText
+pip install .
+```
+* MeCab for Windows (Note: Japanese users only)
+  MeCab installation is described in Japanese.
+  Windows版mecabの日本語辞書文字コードはShift-JISコードですが、Pythonは文字コードをすべてUTF-8で処理をしていますので、mecabコマンドではShift-JISコード、fasttextAPIからはUTF-8コードの日本語辞書を用意する必要があります。以下にインストレーション方法を示します。
+```
+はじめにpipします
+pip install mecab-python-windows
 ```
