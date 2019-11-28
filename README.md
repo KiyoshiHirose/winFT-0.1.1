@@ -79,13 +79,11 @@ pip install mecab-python-windows
   TBD
 * Author
 
-  Kiyoshi Hirose
-  
-  Representative, HIT Business Consulting Firm (Self employed)
+  Kiyoshi Hirose, Representative of HIT Business Consulting Firm (Self employed).
   
   Focusing both business and technical strategies for AI implementation.
 
-  Certificate Artificial Intelligence: Implications for Business Strategy from MIT Sloan school of management.
+  Certificate "Artificial Intelligence: Implications for Business Strategy" from MIT Sloan school of management.
 * License
 
   MIT License.
