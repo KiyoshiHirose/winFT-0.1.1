@@ -8,6 +8,7 @@ winFT runs on Japanese and English Windows.
 ![winFT](https://user-images.githubusercontent.com/46741075/69804504-12b10300-1222-11ea-95f6-899d9364e829.png)
 ![skipgram-result](https://user-images.githubusercontent.com/46741075/69804679-73d8d680-1222-11ea-8323-339a25d4642c.png)
 # Software Requirements
+* Windows 10
 * C++ for Windows
 * Python 3.6.8 or newer for Windows
 * Config parser, Numpy, Pillow, WMI import modules
@@ -15,7 +16,7 @@ winFT runs on Japanese and English Windows.
 * MeCab for Windows (MeCab is morphological analysis tool for Japanese)
 # Hardware Requirements
 * CPU : Intel CORE i7 8th Gen or newer
-* MEM : Minimum 8GB is recomended
+* MEM : Minimum 8GB is recommended
 * Storage : Large enough for machine/deep learning
 # Installation
 * C++ for Windows
@@ -25,6 +26,7 @@ winFT runs on Japanese and English Windows.
   
   Non-Japanese users: install from [here](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2019)
 * Python 3.6 for Windows
+  Go to [Python.org for Windows](https://www.python.org/downloads/windows/) and select your favorite version. "Wdindows x86-64 executable installer" is recommended. (winFT is developed under [Python-3.6.8-amd64.exe](https://www.python.org/ftp/python/3.6.8/python-3.6.8-amd64.exe))
   
   
 ```
