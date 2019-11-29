@@ -116,8 +116,7 @@ pip install mecab-python-windows
   
     - Web site: https://www.hitbiz128.com/
     - Facebook: https://www.facebook.com/kiyoshi.hirose0810
-    -Linked In: https://www.linkedin.com/in/kiyoshihirose/
-  
+    - Linked In: https://www.linkedin.com/in/kiyoshihirose/
   
   Focusing both business and technical strategies for AI implementation.
 
