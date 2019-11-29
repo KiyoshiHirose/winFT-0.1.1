@@ -95,7 +95,7 @@ pip install mecab-python-windows
   
   Nearest Neighbors.
   
-  This is an example of text8, fanous corpus of Word2Vec.
+  This is an example of text8, famous corpus of Word2Vec.
   ![nn](https://user-images.githubusercontent.com/46741075/69818324-db514f00-123f-11ea-8dc3-be98d71acb61.png)
   ![nn-result](https://user-images.githubusercontent.com/46741075/69818355-edcb8880-123f-11ea-80b3-a1d345944000.png)
 
@@ -113,6 +113,11 @@ pip install mecab-python-windows
 * Author
 
   Kiyoshi Hirose, Representative of HIT Business Consulting Firm (Self employed).
+  
+    - Web site: https://www.hitbiz128.com/
+    - Facebook: https://www.facebook.com/kiyoshi.hirose0810
+    -Linked In: https://www.linkedin.com/in/kiyoshihirose/
+  
   
   Focusing both business and technical strategies for AI implementation.
 
