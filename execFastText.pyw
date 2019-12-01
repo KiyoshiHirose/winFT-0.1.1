@@ -8,11 +8,11 @@
 #      winFastText spawns this process and communicates through subprocess.PIPE method.
 #      ft.ini is an input information from winFastText what to do in this program.
 #   Github:
-#      https://
+#      https://github.com/KiyoshiHirose/winFT-0.1.1
 #   License: MIT License.
 #      Find License.txt for more detail.
 #   Version history:
-#      0.0.1 : 2019-11-xx
+#      0.0.1 : 2019-11-26
 # ---
 import fasttext as ft
 import configparser
