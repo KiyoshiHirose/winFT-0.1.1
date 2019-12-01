@@ -7,11 +7,12 @@
 #      This program is full compatible with command mode fasttext on the Linux.
 #      You can execute fasttext command in this program with windows interface.
 #   Github:
-#      https://
+#      https://github.com/KiyoshiHirose/winFT-0.1.1
 #   License: MIT License.
 #      Find License.txt for more detail.
 #   Version history:
-#      0.0.1 : 2019-11-xx
+#      0.0.1 : 2019-11-26
+#      0.1.1 : 2019-11-29
 # ---
 import tkinter as tk
 from tkinter import messagebox, filedialog, ttk
